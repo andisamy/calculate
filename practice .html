@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <input type="text" id="testing_input" placeholder="enter your number">
+    <button class="btn" value="3" onclick="display('3')">3</button>
+    <button class="btn" value="4" onclick="display('4')">4</button>
+
+    <script>
+        function display(num) {
+            var outputdisplay=document.getElementById("testing_input");
+            var inputnumber =document.querySelector(".btn").value;
+            outputdisplay.value += num;
+        }
+    </script>
+</body>
+</html>
